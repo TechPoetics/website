@@ -96,28 +96,29 @@ textarea {
    ========================================================================== */
 
 html {
-  font-family: system, -apple-system,
+  font-family: source-sans-pro, system, -apple-system,
       ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
 }
 
 header {
-  color: #ffffff;
-  font-family: 'Averia Serif Libre';
+  background: transparent url(/img/header.svg) no-repeat center;
+  background-size: cover;
+  color: #fff;
   padding: .8em;
   position: relative;
   text-align: center;
 }
 
-header h2 {
-  font-size: 1em;
+header h1 {
+  font-size: 12vw;
+  letter-spacing: 0.1em;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
-header canvas {
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  top: 0;
-  z-index: -1;
+header h2 {
+  font-size: 1em;
+  font-weight: 400;
 }
 
 /* ==========================================================================
@@ -201,5 +202,16 @@ header canvas {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+  header {
+    padding: 8em inherit;
+  }
+
+  header h1 {
+    font-size: 4em;
+  }
+
+  header h2 {
+    font-size: 2em;
+    font-weight: 300;
+  }
 }
