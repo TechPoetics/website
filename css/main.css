@@ -95,21 +95,30 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  font-family: system, -apple-system,
+      ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
+}
 
+header {
+  color: #ffffff;
+  font-family: 'Averia Serif Libre';
+  padding: .8em;
+  position: relative;
+  text-align: center;
+}
 
+header h2 {
+  font-size: 1em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+header canvas {
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
 
 /* ==========================================================================
    Helper classes
