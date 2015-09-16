@@ -1,8 +1,8 @@
 $(document).ready(function() {
   var bittersMap = (function () {
-    var address = $('p.address').text(),
+    var address = $('.address').text(),
         geocoder = new google.maps.Geocoder(),
-        mapCanvas = document.getElementById('map_canvas'),
+        mapCanvas = document.getElementById('map-canvas'),
         mapOptions = {
           draggable: false,
           disableDefaultUI: true,

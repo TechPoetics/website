@@ -6,6 +6,10 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+* {
+  box-sizing: border-box;
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -100,12 +104,20 @@ html {
       ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
 }
 
+a {
+  color: #ce1e6c;
+}
+
+a:visited {
+  color: #85757c;
+}
+
 header {
-  background: transparent url(/img/header.svg) no-repeat center;
+  background: transparent url(/images/header.svg) no-repeat center;
   background-size: cover;
   color: #fff;
   height: 50vw;
-  padding: 5em .8em 3em;
+  padding: 2em .8em 3em;
   position: relative;
   text-align: center;
 }
@@ -148,22 +160,22 @@ main,
 }
 
 .next-meeting h2 {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-weight: 300;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+  background: white;
+  border-bottom: 1px solid #EDEDED;
 }
 
-.next-meeting #map_canvas {
+.meetup-info {
+  vertical-align: top;
+}
+
+.next-meeting #map-canvas {
+  float: none;
   height: 50vh;
   pointer-events: none;
-  width: 100%;
 }
 
 .next-meeting .meetup-info {
+  display: inline-block;
   padding: 1em;
   margin: 0 auto;
   max-width: 800px;
@@ -174,19 +186,23 @@ main,
   font-weight: 700;
 }
 
-.next-meeting p.datetime span {
-  display: block;
-}
-
-.next-meeting p.datetime span.time {
+.next-meeting h2 span:nth-child(2n) {
   color: #aaa;
   font-weight: 400;
   margin-bottom: 1em;
 }
 
-.next-meeting p.address {
-  color: #aaa;
+.meetup-info p {
   font-weight: 400;
+}
+
+.previous-meetings .meeting img {
+  max-width: 100%;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
 }
 
 /* ==========================================================================
@@ -284,11 +300,17 @@ main,
     font-weight: 300;
   }
 
-  #map_canvas {
-    height: 400px;
+  #map-canvas,
+  .meetup-info {
+    min-height: 50vh;
+    vertical-align: top;
+    width: 50%;
   }
 
-  .next-meeting h2 {
+  .next-meeting #map-canvas {
+    float: right;
+  }
 
+  .meetup-info {
   }
 }
