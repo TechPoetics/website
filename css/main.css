@@ -196,6 +196,10 @@ main,
   font-weight: 400;
 }
 
+.meetup-info h3 {
+  margin-bottom: 0.5em;
+}
+
 .previous-meetings .meeting img {
   max-width: 100%;
 }
