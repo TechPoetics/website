@@ -162,6 +162,17 @@ main,
 .next-meeting h2 {
   background: white;
   border-bottom: 1px solid #EDEDED;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+.next-meeting h2 .next {
+  display: block;
+  font-size: 0.5em;
+}
+
+.next-meeting h2 .address {
+  display: block;
 }
 
 .meetup-info {
