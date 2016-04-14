@@ -149,6 +149,7 @@ main,
   margin: 0 auto;
   max-width: 800px;
   padding: 0 24px;
+  word-wrap: break-word;
 }
 
 .next-meeting {
@@ -218,6 +219,10 @@ main,
 footer {
   padding: 1em;
   text-align: center;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 /* ==========================================================================
