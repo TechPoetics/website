@@ -112,7 +112,7 @@ a:visited {
   color: #85757c;
 }
 
-header {
+header.main {
   background: transparent url(/images/header.svg) no-repeat center;
   background-size: cover;
   color: #fff;
@@ -122,14 +122,13 @@ header {
   text-align: center;
 }
 
-header h1 {
-  font-size: 12vw;
+header.main h1 {
   letter-spacing: 0.1em;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 
-header h2 {
+header.main h2 {
   font-size: 1em;
   font-weight: 400;
 }
@@ -141,6 +140,7 @@ h3 {
 }
 
 main {
+  clear: both;
   font-size: 24px;
 }
 
@@ -153,55 +153,49 @@ main,
 }
 
 .next-meeting {
-  background-color: #f5f5f5;
-  border-bottom: 1px solid #EDEDED;
+  background: white;
   font-size: 24px;
-  margin-bottom: 1em;
   position: relative;
 }
 
-.next-meeting h2 {
-  background: white;
-  border-bottom: 1px solid #EDEDED;
+.next-meeting header {
+  font-weight: 700;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 1em 1em;
   text-align: center;
-  padding: 0.5em 0;
 }
 
-.next-meeting h2 .next {
+.next-meeting .meetup-info {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ededed;
+}
+
+.next-meeting span.next {
   display: block;
   font-size: 0.5em;
 }
 
-.next-meeting h2 .address {
+.next-meeting span:nth-child(2n) {
+  color: #aaa;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.next-meeting .address {
   display: block;
 }
 
-.meetup-info {
+.next-meeting .description {
+  font-size: 24px;
+  padding: 1em;
   vertical-align: top;
 }
 
 .next-meeting #map-canvas {
   float: none;
-  height: 50vh;
+  min-height: 50vh;
   pointer-events: none;
-}
-
-.next-meeting .meetup-info {
-  display: inline-block;
-  padding: 1em;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-.next-meeting p {
-  margin: 0;
-  font-weight: 700;
-}
-
-.next-meeting h2 span:nth-child(2n) {
-  color: #aaa;
-  font-weight: 400;
-  margin-bottom: 1em;
 }
 
 .meetup-info p {
@@ -308,29 +302,40 @@ iframe {
 @media only screen and (min-width: 600px) {
   header {
     height: auto;
-    padding: 8em inherit;
   }
 
-  header h1 {
+  header.main h1 {
     font-size: 4em;
   }
 
-  header h2 {
+  header.main h2 {
     font-size: 2em;
     font-weight: 300;
   }
 
-  #map-canvas,
-  .meetup-info {
+  .next-meeting header {
+    font-size: 36px;
+  }
+
+  .next-meeting #map-canvas,
+  .next-meeting .description {
     min-height: 50vh;
     vertical-align: top;
     width: 50%;
   }
 
-  .next-meeting #map-canvas {
-    float: right;
+  .next-meeting .description {
+    float: left;
   }
 
-  .meetup-info {
+  .next-meeting .description h3,
+  .next-meeting .description p,
+  .next-meeting .description div {
+    margin: inherit auto;
+    max-width: 800px;
+  }
+
+  .next-meeting #map-canvas {
+    float: right;
   }
 }
