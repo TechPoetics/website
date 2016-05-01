@@ -100,7 +100,7 @@ textarea {
    ========================================================================== */
 
 html {
-  font-family: source-sans-pro, system, -apple-system,
+  font-family: "source-sans-pro", system, -apple-system,
       ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
 }
 
@@ -116,6 +116,7 @@ header {
   background: transparent url(/images/header.svg) no-repeat center;
   background-size: cover;
   color: #fff;
+  margin-bottom: 1em;
   padding: 2em .8em 3em;
   position: relative;
   text-align: center;
