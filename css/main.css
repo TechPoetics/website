@@ -176,7 +176,7 @@ main,
   font-size: 0.5em;
 }
 
-.next-meeting span:nth-child(2n) {
+.next-meeting header span:nth-child(2n) {
   color: #aaa;
   font-weight: 400;
   margin-bottom: 1em;
@@ -198,6 +198,19 @@ main,
   pointer-events: none;
 }
 
+.description span.title,
+.description span.website {
+  display: block;
+}
+
+.description span.title {
+  font-weight: 700;
+}
+
+.description span.title {
+  text-decoration: none;
+}
+
 .meetup-info p {
   font-weight: 400;
 }
@@ -212,6 +225,8 @@ main,
 }
 
 .previous-meetings .meeting img {
+  display: block;
+  margin-bottom: 1em;
   max-width: 100%;
 }
 
