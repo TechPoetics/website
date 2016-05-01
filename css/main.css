@@ -133,6 +133,24 @@ header.main h2 {
   font-weight: 400;
 }
 
+header.main div.join {
+  margin-top: 1em;
+}
+
+header.main div.join a {
+  background-color: white;
+  border-radius: 0.3em;
+  color: #ce1e6c;
+  margin-left: 0.1em;
+  padding: 0.2em 0.5em;
+  text-decoration: none;
+}
+
+header.main div.join a:hover {
+  background-color: #ce1e6c;
+  color: white;
+}
+
 h1,
 h2,
 h3 {
