@@ -84,6 +84,18 @@ textarea {
   resize: vertical;
 }
 
+h4 {
+  margin-bottom: 0;
+}
+.website p {
+  margin: 0;
+}
+
+h3 {
+  margin-top: 2em !important;
+  margin-bottom: 0.2em !important;
+}
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -236,6 +248,8 @@ main,
 .meetup-info h3 {
   margin-bottom: 0.5em;
 }
+
+
 
 .previous-meetings,
 .archive {
