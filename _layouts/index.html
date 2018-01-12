@@ -42,11 +42,11 @@
 				<h3><a href="{{ site.data.next_event.facebook }}">January Boston Tech Poetics</a></h3>
 				<span>Presenting talks from:</span>
 				{% for speaker in site.data.next_event.parts %}
-				<span class="title">{{ speaker.subtitle }}</span>
-				<span class="website">
-					{{ speaker.website | markdownify | safe }}
-				</span>
-				<p>{{ speaker.description }}</p>
+					<span class="title">{{ speaker.subtitle }}</span>
+					<span class="website">
+						{{ speaker.website | markdownify | safe }}
+					</span>
+					<p class="descri">{{ speaker.descri }}</p>
 				{% endfor %}
 			</div>
 			<div id="map-canvas"></div>
@@ -81,6 +81,7 @@
 				<img src="{{ event[1].image | prepend: base_path }}" alt="{{ event.alt }}">
 
 			</div>
+			<hr>
 			{% endfor %}
 
 		</section>

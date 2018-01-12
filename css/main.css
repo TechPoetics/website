@@ -47,7 +47,7 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
+  margin: 2em 0;
   padding: 0;
 }
 
@@ -91,10 +91,6 @@ h4 {
   margin: 0;
 }
 
-h3 {
-  margin-top: 2em !important;
-  margin-bottom: 0.2em !important;
-}
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -220,6 +216,10 @@ main,
   font-size: 24px;
   padding: 1em;
   vertical-align: top;
+}
+
+.next-meeting .descri {
+  font-size: 16px;
 }
 
 .next-meeting #map-canvas {
