@@ -11,10 +11,22 @@ address: "300 Cambridge St. Floor 5, Boston, MA 02114"
 facebook: "https://www.facebook.com/events/293102637879614/"
 parts:
 - subtitle: "Miriam Simun"
-  website: ""
-  descri: ""
+  website: "[miriamsimun.com](http://www.miriamsimun.com/)"
+  descri: "Miriam Simun is an artist whose work spans video, sculpture, scent,
+          food, writing, public performance and numerous other disciplines.
+          Often based in ethnographic, historical and scientific research,
+          her work has been called “Performance as Research/Research as Performance.”
+          Among her chief concerns are are attending to sensorial, embodied forms
+          of knowledge; exploring the messy complexities and contradictory poetics
+          residing at the intersection of Nature/Culture/Power; and developing
+          the means to imagine alternate futures."
 
 - subtitle: "Gillian Smith"
-  website: ""
-  descri: ""
+  website: "[sokath.com](http://sokath.com/main/)"
+  descri: "Dr. Smith's research interests are in computational creativity,
+          game design, computer science education, and the intersection of
+          traditional crafts and computation. Her interdisciplinary work merges
+          technical research in AI and HCI with creative practice in textiles
+          and games, with a view towards addressing social issues and broadening
+          participation and perspectives on computing."
 
