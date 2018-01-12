@@ -19,33 +19,45 @@
 		<h1>Boston Tech Poetics</h1>
 		<h2>A creative tech community in the Greater Boston Area</h2>
 		<div class="join">
-			Join our <a href="https://groups.google.com/forum/#!forum/boston-tech-poetics">Google Group</a>
+			Join our <a href="https://groups.google.com/forum/#!forum/boston-tech-poetics">Google Group</a> or
+			Follow our <a href="https://www.facebook.com/techpoetics/">Facebook Page</a>
 		</div>
 	</header>
 
+
+
+
 	<section class="next-meeting">
+
 		<header>
 			<span class="next">Next Meeting</span>
-			<span class="date">October 26th</span>
-			<span class="time">6pm</span>
-			<span>NuVu Studio</span>
-			<span class="address">450 Massachusetts Ave, Cambridge, MA 02139</span>
+			<span class="date">{{ site.data.next_event.date }}</span>
+			<span class="time">{{ site.data.next_event.time }}</span>
+			<span class="place">{{ site.data.next_event.place }}</span>
+			<span class="address">{{ site.data.next_event.address }}</span>
 		</header>
+
 		<div class="meetup-info">
 			<div class="description">
-				<h3><a href="https://www.facebook.com/events/1651320031557537/">October Boston Tech Poetics</a></h3>
-		<span>Presenting a talk from:</span>
-				<span class="title">Sara Hendren</span>
+				<h3><a href="{{ site.data.next_event.facebook }}">January Boston Tech Poetics</a></h3>
+				<span>Presenting talks from:</span>
+				{% for speaker in site.data.next_event.parts %}
+				<span class="title">{{ speaker.subtitle }}</span>
 				<span class="website">
-		Some bodies do some things, and others do others. Prosthetics, bodily capacity, expanded engineering and creative research, flexible adaptation, possible futures, interdependence, collaborative design, inclusive systems, productive uncertainty, and critical making—these things drive my work. At this talk, I want to explore ways to expand work on disability and technology into some newer uncharted territory - More at <a href="https://ablersite.org/">https://ablersite.org/</a>
+					{{ speaker.website | markdownify | safe }}
 				</span>
-				<p></p>
+				<p>{{ speaker.description }}</p>
+				{% endfor %}
 			</div>
 			<div id="map-canvas"></div>
 			<div class="clearfix">
 		</div>
 		</div>
 	</section>
+
+
+
+
 
 	<main>
 		<section class="previous-meetings">

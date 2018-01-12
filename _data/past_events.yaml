@@ -1,22 +1,25 @@
 
 
-# 10/26/2017 - Sara Hendren:
-#   title: "10/26/2017 - Sara Hendren"
-#   image: "images/sara_hendren.jpg"
-#   alt: "October 2017 Boston Tech Poetics"
-#   facebook: "https://www.facebook.com/events/1651320031557537/"
-#   parts:
-#   - subtitle: Sara Hendren
-#     website: "[https://ablersite.org/](https://ablersite.org/)"
-#     descri: Some bodies do some things, and others do others. Prosthetics,
-#             bodily capacity, expanded engineering and creative research,
-#             flexible adaptation, possible futures, interdependence, collaborative
-#             design, inclusive systems, productive uncertainty, and critical making—these
-#             things drive my work. At this talk, I want to explore ways to expand work
-#             on disability and technology into some newer uncharted territory.
+10/26/2017 - Sara Hendren:
+  title: "10/26/2017 - Sara Hendren"
+  date: "10/26/2017"
+  image: "images/sara_hendren.jpg"
+  alt: "October 2017 Boston Tech Poetics"
+  facebook: "https://www.facebook.com/events/1651320031557537/"
+  parts:
+  - subtitle: Sara Hendren
+    website: "[https://ablersite.org/](https://ablersite.org/)"
+    descri: Some bodies do some things, and others do others. Prosthetics,
+            bodily capacity, expanded engineering and creative research,
+            flexible adaptation, possible futures, interdependence, collaborative
+            design, inclusive systems, productive uncertainty, and critical making—these
+            things drive my work. At this talk, I want to explore ways to expand work
+            on disability and technology into some newer uncharted territory.
+
 
 9/14/2017 - Theo Watson of Design I/O:
   title: "9/14/2017 - Theo Watson of Design I/O"
+  date: "9/14/2017"
   image: "images/Sept2017_Theo.JPG"
   alt: "September 2017 Boston Tech Poetics"
   parts:
@@ -30,6 +33,7 @@
 
 2/2/2017 - Brian Kane:
   title: "2/2/2017 - Brian Kane"
+  date: "2/2/2017"
   image: "images/Feb2017_Brian_Kane.jpg"
   alt: "February 2017 Boston Tech Poetics"
   parts:
@@ -48,6 +52,7 @@
 
 12/14/2016 - NAPA & Stefania Druga:
   title: "12/14/2016 - NAPA & Stefania Druga"
+  date: "12/14/2016"
   image: "images/2016_napa.jpg"
   alt: "December 2016 Boston Tech Poetics with NAPA"
   facebook: "https://www.facebook.com/events/222159934887153/"
@@ -69,6 +74,7 @@
 
 11/19/2016 - Tech Poetics & Hacking Arts Tech Expo:
   title: "11/19/2016 - Tech Poetics & Hacking Arts Tech Expo"
+  date: "11/19/2016"
   image: "images/2016_hacking_arts.jpg"
   alt: "November 2016 Boston Tech Poetics and Hacking Arts Tech Expo"
   facebook: "https://www.facebook.com/events/1815920422019258/"
@@ -77,6 +83,7 @@
 
 9/22/2016 - Wonyoung So & Nan-Wei Gong:
   title: "9/22/2016 - Wonyoung So & Nan-Wei Gong"
+  date: "9/22/2016"
   image: "images/september2016btp.jpg"
   alt: "September 2016 Boston Tech Poetics Meetup"
   facebook: "https://www.facebook.com/events/560867827410511/"
@@ -107,6 +114,7 @@
 
 8/12/2016 - Boston Tech Poetics Retreat:
   title: "8/12/2016 - Boston Tech Poetics Retreat"
+  date: "8/12/2016"
   image: "images/btpretreat2016.png"
   alt: "Boston Tech Poetics Retreat"
   parts:
@@ -123,6 +131,7 @@
 
 5/19/2016 - Kawandeep Virdee & Rosa Weinberg/Laura Zittrain:
   title: "5/19/2016 - Kawandeep Virdee & Rosa Weinberg/Laura Zittrain"
+  date: "5/19/2016"
   image: "images/may2016btp.jpg"
   alt: "May 2016 Boston Tech Poetics Meetup"
   facebook: "https://m.facebook.com/events/566695130159135/"
@@ -156,6 +165,7 @@
 
 4/27/2016 - Amedeo Mapelli & Ani Liu:
   title: "4/27/2016 - Amedeo Mapelli & Ani Liu"
+  date: "4/27/2016"
   facebook: "https://www.facebook.com/events/560867827410511/"
   parts:
   - subtitle: Amedeo Mapelli
@@ -180,6 +190,7 @@
 
 3/24/2016 - Victoria Shen & Nick Chelyapov:
   title: "3/24/2016 - Victoria Shen & Nick Chelyapov"
+  date: "3/24/2016"
   image: "images/victoria-shen-march-btp.png"
   alt: "March 2016 Boston Tech Poetics Meetup"
   facebook: "https://www.facebook.com/events/1154347287911263/"
@@ -205,6 +216,7 @@
 
 2/25/2016 - Joelle Bitton & Matt Tytel:
   title: "2/25/2016 - Joelle Bitton & Matt Tytel"
+  date: "2/25/2016"
   # image: "<iframe src='https://player.vimeo.com/video/158731769' width='752' height='300' frameborder='0' webkitallowfullscreen=' mozallowfullscreen=' allowfullscreen='></iframe>"
   facebook: "https://www.facebook.com/events/181607395536625/"
   parts:
@@ -236,6 +248,7 @@
 
 1/20/2016 - Eitan Mendelowitz & Saba Ghole:
   title: "1/20/2016 - Eitan Mendelowitz & Saba Ghole"
+  date: "1/20/2016"
   image: "images/january2016meetup.jpg"
   alt: "January 2016 Tech Poetics Meetup"
   facebook: "https://www.facebook.com/events/1076545689057074/"
@@ -270,6 +283,7 @@
 
 12/17/2015 - Jonathan Bobrow & Dana Busch:
   title: "12/17/2015 - Jonathan Bobrow & Dana Busch"
+  date: "12/17/2015"
   image: "images/BTPDecember2015.png"
   alt: "October 2015 Demo Night"
   facebook: "https://www.facebook.com/events/1615001418818489/"
@@ -296,6 +310,7 @@
 
 10/28/2015 - 3rd Annual Demo Night:
   title: "10/28/2015 - 3rd Annual Demo Night"
+  date: "10/28/2015"
   # image: <iframe src='https://player.vimeo.com/video/147269142' width='752' height='350' frameborder='0' webkitallowfullscreen=' mozallowfullscreen=' allowfullscreen='></iframe>
   parts:
   - subtitle: ""
@@ -308,6 +323,7 @@
 
 7/29/2015 - Eyeo & OpenVis Conf Recaps:
   title: "7/29/2015 - Eyeo & OpenVis Conf Recaps"
+  date: "7/29/2015"
   image: "images/july2015.jpeg"
   alt: "July 2015 Meeting"
   parts:

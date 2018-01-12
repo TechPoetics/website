@@ -1,18 +1,20 @@
 
 
-10/26/2017 - Sara Hendren:
-  title: "10/26/2017 - Sara Hendren"
-  image: "images/sara_hendren.jpg"
-  alt: "October 2017 Boston Tech Poetics"
-  facebook: "https://www.facebook.com/events/1651320031557537/"
-  parts:
-  - subtitle: Sara Hendren
-    website: "[https://ablersite.org/](https://ablersite.org/)"
-    descri: Some bodies do some things, and others do others. Prosthetics,
-            bodily capacity, expanded engineering and creative research,
-            flexible adaptation, possible futures, interdependence, collaborative
-            design, inclusive systems, productive uncertainty, and critical making—these
-            things drive my work. At this talk, I want to explore ways to expand work
-            on disability and technology into some newer uncharted territory.
+# 1/31/2018 - Miriam Simun & Gillian Smith:
+title: "1/31/2018 - Miriam Simun & Gillian Smith"
+# image: "images/sara_hendren.jpg"
+# alt: "January 2018 Boston Tech Poetics"
+date: "Wednesday, January 31"
+time: "7pm"
+place: "Fathom Information Design"
+address: "300 Cambridge St. Floor 5, Boston, MA 02114"
+facebook: "https://www.facebook.com/events/293102637879614/"
+parts:
+- subtitle: "Miriam Simun"
+  website: ""
+  descri: ""
 
+- subtitle: "Gillian Smith"
+  website: ""
+  descri: ""
 
