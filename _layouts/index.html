@@ -1,111 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Boston Tech Poetics - A creative tech community in the Greater Boston Area</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-	<!--[if lt IE 8]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<header class="main">
-		<h1>Boston Tech Poetics</h1>
-		<h2>A creative tech community in the Greater Boston Area</h2>
-		<div class="join">
-			Join our <a href="https://groups.google.com/forum/#!forum/boston-tech-poetics">Google Group</a> or
-			Follow our <a href="https://www.facebook.com/techpoetics/">Facebook Page</a>
-		</div>
+---
+layout: default
+---
+
+<header class="main">
+	<h1>Boston Tech Poetics</h1>
+	<h2>A creative tech community in the Greater Boston Area</h2>
+	<div class="join">
+		Join our <a href="https://groups.google.com/forum/#!forum/boston-tech-poetics">Google Group</a> or
+		Follow our <a href="https://www.facebook.com/techpoetics/">Facebook Page</a>
+	</div>
+</header>
+
+
+<section class="next-meeting">
+
+	<header>
+		<span class="next">Next Meeting</span>
+		<span class="date">{{ site.data.next_event.date }}</span>
+		<span class="time">{{ site.data.next_event.time }}</span>
+		<span class="place">{{ site.data.next_event.place }}</span>
+		<span class="address">{{ site.data.next_event.address }}</span>
 	</header>
 
-
-
-
-	<section class="next-meeting">
-
-		<header>
-			<span class="next">Next Meeting</span>
-			<span class="date">{{ site.data.next_event.date }}</span>
-			<span class="time">{{ site.data.next_event.time }}</span>
-			<span class="place">{{ site.data.next_event.place }}</span>
-			<span class="address">{{ site.data.next_event.address }}</span>
-		</header>
-
-		<div class="meetup-info">
-			<div class="description">
-				<h3><a href="{{ site.data.next_event.facebook }}">January Boston Tech Poetics</a></h3>
-				<span>Presenting talks from:</span>
-				{% for speaker in site.data.next_event.parts %}
-					<span class="title">{{ speaker.subtitle }}</span>
-					<span class="website">
-						{{ speaker.website | markdownify | safe }}
-					</span>
-					<p class="descri">{{ speaker.descri }}</p>
-				{% endfor %}
-			</div>
-			<div id="map-canvas"></div>
-			<div class="clearfix">
+	<div class="meetup-info">
+		<div class="description">
+			<h3><a href="{{ site.data.next_event.facebook }}">January Boston Tech Poetics</a></h3>
+			<span>Presenting talks from:</span>
+			{% for speaker in site.data.next_event.parts %}
+				<span class="title">{{ speaker.subtitle }}</span>
+				<span class="website">
+					{{ speaker.website | markdownify | safe }}
+				</span>
+				<p class="descri">{{ speaker.descri }}</p>
+			{% endfor %}
 		</div>
-		</div>
-	</section>
+		<div id="map-canvas"></div>
+		<div class="clearfix">
+	</div>
+	</div>
+</section>
 
 
+<main>
+	<section class="previous-meetings">
 
+		<h2>Past Events</h2>
 
+		{% for event in site.data.past_events %}
+		<div class="meeting">
 
-	<main>
-		<section class="previous-meetings">
+			<h3>{{ event[0] }}</h3>
 
-			<h2>Past Events</h2>
+			{% for part in event[1].parts %}
 
-			{% for event in site.data.past_events %}
-			<div class="meeting">
+				<h4>{{ part.subtitle }}</h4>
+				<span class="website">{{ part.website | markdownify | safe }}</span>
 
-				<h3>{{ event[0] }}</h3>
+				<p>{{ part.descri }}</p>
 
-				{% for part in event[1].parts %}
-
-					<h4>{{ part.subtitle }}</h4>
-					<span class="website">{{ part.website | markdownify | safe }}</span>
-
-					<p>{{ part.descri }}</p>
-
-				{% endfor %}
-
-				<img src="{{ event[1].image | prepend: base_path }}" alt="{{ event.alt }}">
-
-			</div>
-			<hr>
 			{% endfor %}
 
-		</section>
-	</main>
+			<img src="{{ event[1].image | prepend: base_path }}" alt="{{ event.alt }}">
 
-	<footer>
-		<div>
-			Join the <a href="https://groups.google.com/forum/#!forum/boston-tech-poetics">Tech Poetics Google Group</a>
 		</div>
-		<span>© 2015 Tech Poetics</span> <span>Website by <a href="http://edwardloveall.com" target="_blank">Edward Loveall</a></span> <span><a href="/about.html">About</a></span>
-	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
-	<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-	<script src="/js/main.js"></script>
-	<script src="/js/map.js"></script>
-	<script src="//use.edgefonts.net/source-sans-pro:n3,n4,n7.js"></script>
-	<script>
-		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-		e.src='https://www.google-analytics.com/analytics.js';
-		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-		ga('create','UA-75680819-1','auto');ga('send','pageview');
-	</script>
-</body>
-</html>
+		<hr>
+		{% endfor %}
+
+	</section>
+</main>
