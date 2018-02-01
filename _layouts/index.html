@@ -12,6 +12,8 @@ layout: default
 </header>
 
 
+{% if site.data.next_event %}
+
 <section class="next-meeting">
 
 	<header>
@@ -40,6 +42,8 @@ layout: default
 	</div>
 </section>
 
+{% endif %}
+
 
 <main>
 	<section class="previous-meetings">
@@ -50,6 +54,7 @@ layout: default
 		<div class="meeting">
 
 			<h3>{{ event[0] }}</h3>
+			<img src="{{ event[1].image | prepend: base_path }}" alt="{{ event.alt }}">
 
 			{% for part in event[1].parts %}
 
@@ -58,9 +63,13 @@ layout: default
 
 				<p>{{ part.descri }}</p>
 
+				{% if part.image %}
+					<!-- <h1>hello world</h1> -->
+					<img src="{{ part.image | prepend: base_path }}" alt="{{ event.alt }}">
+				{% endif %}
+
 			{% endfor %}
 
-			<img src="{{ event[1].image | prepend: base_path }}" alt="{{ event.alt }}">
 
 		</div>
 		<hr>
