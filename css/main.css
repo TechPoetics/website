@@ -84,9 +84,7 @@ textarea {
   resize: vertical;
 }
 
-h4 {
-  margin-bottom: 0;
-}
+
 .website p {
   margin: 0;
 }
@@ -161,9 +159,11 @@ header.main div.join a:hover {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
+h3 {margin-bottom: 1rem;}
 
 main {
   clear: both;
@@ -374,6 +374,7 @@ iframe {
     min-height: 50vh;
     vertical-align: top;
     width: 50%;
+    height: 100%;
   }
 
   .next-meeting .description {

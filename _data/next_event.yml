@@ -1,32 +1,20 @@
 
 
-# # 1/31/2018 - Miriam Simun & Gillian Smith:
-# title: "1/31/2018 - Miriam Simun & Gillian Smith"
-# # image: "images/sara_hendren.jpg"
-# # alt: "January 2018 Boston Tech Poetics"
-# date: "Wednesday, January 31"
-# time: "7pm"
-# place: "Fathom Information Design"
-# address: "300 Cambridge St. Floor 5, Boston, MA 02114"
-# facebook: "https://www.facebook.com/events/293102637879614/"
-# parts:
-# - subtitle: "Miriam Simun"
-#   website: "[miriamsimun.com](http://www.miriamsimun.com/)"
-#   descri: "Miriam Simun is an artist whose work spans video, sculpture, scent,
-#           food, writing, public performance and numerous other disciplines.
-#           Often based in ethnographic, historical and scientific research,
-#           her work has been called “Performance as Research/Research as Performance.”
-#           Among her chief concerns are are attending to sensorial, embodied forms
-#           of knowledge; exploring the messy complexities and contradictory poetics
-#           residing at the intersection of Nature/Culture/Power; and developing
-#           the means to imagine alternate futures."
+# 7/10/2018 - Ben Houge & Andrew Blanton:
+title: "7/10/2018 - Ben Houge & Andrew Blanton"
+# image: "images/sara_hendren.jpg"
+# alt: "July 2018 Boston Tech Poetics"
+date: "Tuesday, July 10"
+time: "7pm"
+place: "Nuvu Studio"
+address: "450 Massachusetts Ave, Cambridge, MA 02139"
+facebook: "https://www.facebook.com/events/962660327227754/"
+parts:
+- subtitle: "Ben Houge"
+  website: "[benhouge.com](http://www.benhouge.com/)"
+  descri: "Ben Houge is an internationally active American artist operating at the nexus of music composition, gastronomy, video games, performance, sound installation, and digital art. In addition to his art practice, he has been working in the game industry since 1996, and teaches music technology in the Electronic Production and Design department at Berklee College of Music. During this talk, Ben will share the results of a recent 'food opera' involving sensors integrated into plates and music scored to a meal."
 
-# - subtitle: "Gillian Smith"
-#   website: "[sokath.com](http://sokath.com/main/)"
-#   descri: "Dr. Smith's research interests are in computational creativity,
-#           game design, computer science education, and the intersection of
-#           traditional crafts and computation. Her interdisciplinary work merges
-#           technical research in AI and HCI with creative practice in textiles
-#           and games, with a view towards addressing social issues and broadening
-#           participation and perspectives on computing."
+- subtitle: "Andrew Blanton"
+  website: "[andrewblanton.com](http://andrewblanton.com/about.html)"
+  descri: "Andrew Blanton is a percussionist, media artist, and educator. His work is fundamentally transdisciplinary combining classical percussion, new media art, and creative coding to create realtime sonic and visual instruments. His current work focuses on the emergent potential between cross-disciplinary arts and technology, building sound and visual environments through software development, 3D sculptures through 3D printing and CNC routing, 3D environments through Virtual Reality and Augmented Reality, networked mobile development, and building scientifically accurate representations complex data sets as visual and sound compositions. Andrew has advanced expertise in percussion, creative software development, and developing projects in the confluence of art and science."
 
