@@ -374,6 +374,7 @@ iframe {
     min-height: 50vh;
     vertical-align: top;
     width: 50%;
+    height: 100%;
   }
 
   .next-meeting .description {
