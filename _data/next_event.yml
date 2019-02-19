@@ -1,20 +1,20 @@
 
 
-# # 10/3/2018 - Nick Chelyapov & Rosie Weinberg:
-# title: "10/3/2018 - Nick Chelyapov & Rosie Weinberg"
-# # image: "images/sara_hendren.jpg"
-# # alt: "July 2018 Boston Tech Poetics"
-# date: "Wednesday, October 3"
-# time: "7pm"
-# place: "MASSCreative"
-# address: "15 Channel Center St, Ste 103, Boston, Massachusetts 02210"
-# facebook: "https://www.facebook.com/events/288471631881145"
-# parts:
-# - subtitle: "Nick Chelyapov"
-#   website: "[nickolaspeter.com](https://www.nickolaspeter.com/)"
-#   descri: "After art school, Nick fell into entertainment advertising. And that was fun at first, then soul sucking. After moving to Cambridge, he started a series of art shows called Curious Sound Objects, and is now making music toys so everyone can enjoy the fun of playing music together. He also gets to make ads for something he really loves."
+# 2/28/2019 - Zach Lieberman and Caitlin Morris:
+title: "2/28/2019 - Zach Lieberman and Caitlin Morris"
+# image: "images/sara_hendren.jpg"
+# alt: "February 2019 Boston Tech Poetics"
+date: "Thursday, February 28"
+time: "7pm"
+place: "NuVu Studio"
+address: "450 Massachusetts Ave, Cambridge, MA 02139"
+facebook: "https://www.facebook.com/events/304225600278639/"
+parts:
+- subtitle: "Zach Lieberman"
+  website: "[zachlieberman.tictail.com](https://zachlieberman.tictail.com/)"
+  descri: "Zach Lieberman is an artist, researcher and educator with a simple goal: he wants you surprised.  In his work, he creates performances and installations that take human gesture as input and amplify them in different ways -- making drawings come to life, imagining what the voice might look like if we could see it, transforming peoples silhouettes into music.  He's been listed as one of Fast Company's Most Creative People and his projects have won the Golden Nica from Ars Electronica,  Interactive Design of the Year from Design Museum London as well as listed in Time Magazine's Best Inventions of the Year.  He creates artwork through writing software and is a co-creator of openFrameworks, an open source C++ toolkit for creative coding and helped co-found the School for Poetic Computation, a school examining the lyrical possibilities of code."
 
-# - subtitle: "Rosie Weinberg"
-#   website: "[leahrosaweinberg.com](http://www.leahrosaweinberg.com/)"
-#   descri: "Rosa Weinberg is a licensed architect. Since 2014, she has taught design full-time at NuVu Studio in Central Square. More than half of the almost fifty studios she has taught relate to designing for the body through topics such as assistive devices, speculative prosthetics, fashion and dance. When she worked as an architect, the building sites she designed for were flat planes--the ground. Her current work is affixed to the body: a contoured, fleshy, expanding, contracting site that is in motion. Her latest projects are focused on this site of attachment."
+- subtitle: "Caitlin Morris"
+  website: "[caitlinmorris.net](http://www.caitlinmorris.net/)"
+  descri: "Caitlin is a designer and researcher, focused on perception, sensation, and the human-environment relationship. Her work ranges from explorations in physical space, taking the form of large-scale sculptures designed to bring unexpected phenomena into the built environment, to human-scale research around cognition and perception. She’s excited about moments where surprising modalities in perception emerge out of symbiosis between an individual and their surroundings."
 
