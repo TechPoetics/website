@@ -22,21 +22,30 @@ layout: default
 		<span class="time">{{ site.data.next_event.time }}</span>
 		<span class="place">{{ site.data.next_event.place }}</span>
 		<span class="address">{{ site.data.next_event.address }}</span>
+		<span class="flyer"><img src="{{ site.data.next_event.image | prepend: base_path }}" alt="{{ site.data.next_event.alt }}">
+		</span>
 	</header>
 
 	<div class="meetup-info">
 		<div class="description">
 			<h3><a href="{{ site.data.next_event.facebook }}">Upcoming Boston Tech Poetics</a></h3>
 			<span>This event's topic:</span>
+
 			{% for speaker in site.data.next_event.parts %}
 				<span class="title">{{ speaker.subtitle }}</span>
 				<span class="website">
 					{{ speaker.website | markdownify | safe }}
 				</span>
 				<p class="descri">{{ speaker.descri }}</p>
+	
 			{% endfor %}
 		</div>
-		<div id="map-canvas"></div>
+		<div id="map-canvas">		
+		</div>
+
+
+
+		
 		<div class="clearfix">
 	</div>
 	</div>

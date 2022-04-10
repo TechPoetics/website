@@ -368,6 +368,11 @@ iframe {
   .next-meeting header {
     font-size: 36px;
   }
+  
+  .flyer img{
+    max-width: 100%;
+    display: block;
+  }
 
   .next-meeting #map-canvas,
   .next-meeting .description {
