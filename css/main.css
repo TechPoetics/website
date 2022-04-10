@@ -271,6 +271,11 @@ iframe {
   max-width: 100%;
 }
 
+.flyer img{
+  display: block;
+  max-width: 100%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -369,11 +374,6 @@ iframe {
     font-size: 36px;
   }
   
-  .flyer img{
-    max-width: 100%;
-    display: block;
-  }
-
   .next-meeting #map-canvas,
   .next-meeting .description {
     min-height: 50vh;
@@ -384,6 +384,11 @@ iframe {
 
   .next-meeting .description {
     float: left;
+  }
+  
+   .flyer img{
+    display: block;
+    max-width: 100%;
   }
 
   .next-meeting .description h3,
